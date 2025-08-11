@@ -163,3 +163,16 @@ Dinámico: Para apps con bases de datos y usuarios (como una red social).
 - Si todo pasa, el CD despliega los cambios en el servidor.
 
 ### d. Documentar el proceso seguido para desplegar la parte 2 del laboratorio
+1. Primero cree el repositorio con el comando: 
+```bash 
+git init
+```
+2. Hice un commit llamado `Laboratorio1` con los comandos: 
+```bash
+git add .
+git commit -m "Laboratorio1" 
+```
+3. Subí el commit (push) desde el GitHub Desktop.
+4. Inicie sesion de mi cuenta de GitHub en Netlify.
+5. Subí el repositorio y me creó la siguiente URL: 
+[Visita mi sitio](https://tubular-griffin-2506bf.netlify.app/)
