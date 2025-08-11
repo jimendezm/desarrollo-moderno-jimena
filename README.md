@@ -1,4 +1,5 @@
 # LABORATORIO 1
+## Realizado por: Jimena Méndez
 
 ## 1. Frameworks de desarrollo web
 
@@ -38,7 +39,7 @@ Entre los más populares en la actualidad son React y .NET. Con React puedes pon
 Es escencial porque cuando se trabaja en un determinado proyecto con una gran comunidad, es necesario realizar el manejo de versiones de los proyectos, ya que este se basa en siempre hacer una actualización (commits) que son necesarios para mejorarlo y realizarlo hasta que ya este completo.
 
 ### b. Conceptos clave: repositorio, commit, branch, merge, pull request.
-- Repositorio: Es útil para realizar un determinado proyecto y dentro de este hacer todas las actualizaciones.
+ Repositorio: Es útil para realizar un determinado proyecto y dentro de este hacer todas las actualizaciones.
 - Commit: Guardar un cambio o actualización con un mensaje para recordar qué hiciste.
 - Branch: Normalmente se utiliza como una copia del proyecto para trabajar sin dañar la el proyecto en la rama de origen.
 - Merge: Juntar un nuevo cambio con los de otras actualizaciones que se han hecho en el proyecto.
@@ -88,7 +89,13 @@ Entre las herramientas más utilizadas para el control de versiones podemos enco
 - OAuth: Un sistema para iniciar sesión usando otra cuenta (Google, Facebook, Apple). 
 
 ### b. Diagrama de flujo explicativo del proceso de autenticación con JWT.
-![Diagrama JWT](https://i0.wp.com/lab.wallarm.com/wp-content/uploads/2024/12/438.5-min.jpg?w=770&ssl=1)
+```mermaid
+sequenceDiagram
+    Usuario->>Servidor: Login (credenciales)
+    Servidor->>Usuario: JWT (firmado)
+    Usuario->>API: Request con JWT
+    API-->>Usuario: Datos protegidos
+```
 
 ### c. Buenas prácticas en seguridad web.
 - Cerrar sesión después de un rato inactivo.
