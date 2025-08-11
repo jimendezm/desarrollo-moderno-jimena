@@ -89,7 +89,7 @@ Entre las herramientas más utilizadas para el control de versiones podemos enco
 - OAuth: Un sistema para iniciar sesión usando otra cuenta (Google, Facebook, Apple). 
 
 ### b. Diagrama de flujo explicativo del proceso de autenticación con JWT.
-![Diagrama JWT](https://github.com/jimendezm/desarrollo-moderno-jimena/blob/master/diagramaFlujo.png?raw=true) {: width="400px"}
+![Diagrama JWT](https://github.com/jimendezm/desarrollo-moderno-jimena/blob/master/diagramaFlujo.png?raw=true) {: width="300px"}
 
 ### c. Buenas prácticas en seguridad web.
 - Cerrar sesión después de un rato inactivo.
